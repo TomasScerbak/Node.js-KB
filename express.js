@@ -5,7 +5,7 @@ const { products } = require("./data");
 
 // API to access Home Page with link
 app.get("/", (req, res) => {
-  res.send("<h1>Home Page</h1><a href=api/products>Products</a>");
+  res.send("<h1>Home Page Welcome</h1><a href=api/products>Products</a>");
 });
 
 // API to get all products
